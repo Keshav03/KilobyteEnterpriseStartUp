@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+#first-row{
+	position: absolute;
+	top:50vh;
+	left: 50vw;
+	width:50px;
+	height: 10px;
+	background: black;
+}
+
+#second-row{
+	position: absolute;
+	top:52vh;
+	left: 50vw;
+	width:50px;
+	height: 10px;
+	background: black;
+}
+
+#third-row{
+	position: absolute;
+	top:54vh;
+	left: 50vw;
+	width:50px;
+	height: 10px;
+	background: black;
+}
+
+
+#first-row1.open{
+	position: absolute;
+	top:50vh;
+	left: 70vw;
+	width:50px;
+	height: 10px;
+	background: black;
+	transform: translateY(13.5px)rotateZ(45deg);
+	
+}
+
+#second-row1.open{
+	position: absolute;
+	top:52vh;
+	left: 70vw;
+	width:50px;
+	height: 10px;
+	background: black;
+	transform: translateX(-50px);
+	background: transparent;
+}
+
+#third-row1.open{
+	position: absolute;
+	top:54vh;
+	left: 70vw;
+	width:50px;
+	height: 10px;
+	background: black;
+	transform:translateY(-13.5px) rotateZ(-45deg)
+}
+
+
+#first-row1{
+	position: absolute;
+	top:50vh;
+	left: 70vw;
+	width:50px;
+	height: 10px;
+	background: black;
+	transform: translateY(13.5px)rotateZ(45deg);
+	
+}
+
+#second-row1{
+	position: absolute;
+	top:52vh;
+	left: 70vw;
+	width:50px;
+	height: 10px;
+	background: black;
+	transform: translateX(-50px);
+	background: transparent;
+}
+
+#third-row1{
+	position: absolute;
+	top:54vh;
+	left: 70vw;
+	width:50px;
+	height: 10px;
+	background: black;
+	transform:translateY(-13.5px) rotateZ(-45deg)
+}
