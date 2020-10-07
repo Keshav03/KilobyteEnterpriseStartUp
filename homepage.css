@@ -73,13 +73,82 @@ header nav ul li a:active{
 
 
 
-main{
+.main{
+	position: relative;
 	width:100vw;
 	height: auto;
+	padding: 100px;
 }
 
+.cover{
+	position: relative;
+	width: auto;
+	height:100vh;
+	background-image: url(cover_photo.JPG);
+	background-size: cover;
+		
+}
+
+#welcomeMsg{
+	position: absolute;
+	left:50%;
+	top: 35%;
+	transform: translate(-50%);
+	font-size: 1.6rem;
+	font-stretch: ultra-expanded;
+	text-transform: uppercase;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	font-weight: 500;
+	color:white;
+}
+
+#KilobyteEnterprise{
+	position: absolute;
+	left:50%;
+	top: 45%;
+	transform: translate(-50%,-45%);
+	font-size: 3.0rem;
+	font-stretch: ultra-expanded;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	text-transform: uppercase;
+	font-weight: 900;
+	color:white;
+	
+}
+
+#bar{
+	position: absolute;
+	width:200px;
+	height: 5px;
+	background: white;
+	left:50%;
+	top:55%;
+	transform: translate(-55%,-50%)
+		
+}
+
+.gridSection{
+	position: relative;
+	display: grid;
+	width: 100%;
+	height: 325px;
+	background: white;
+	grid-template-columns: auto auto auto;
+	padding: 50px 0px;
+}
+
+.grid{
+	margin-left: 20%;
+	left:10%;
+	background: yellow;
+	width:60%
+}
+
+
+
+
 footer {
-	position:absolute;
+	position:relative;
 	bottom: 0%;
 	width: 100vw;
 	height:225px;
