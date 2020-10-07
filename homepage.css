@@ -66,9 +66,8 @@ header nav ul li a:hover{
 }
 
 header nav ul li a:active{
-	background-color: red;
-	text-decoration: none;
-	font-size: 1.2em;
+	color: red;
+	font-size: 2em;
 }
 
 
@@ -140,7 +139,7 @@ header nav ul li a:active{
 .grid{
 	margin-left: 20%;
 	left:10%;
-	background: yellow;
+	background: grey;
 	width:60%
 }
 
