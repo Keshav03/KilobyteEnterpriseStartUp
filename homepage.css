@@ -72,7 +72,7 @@ header nav ul li a:active{
 
 
 
-.main{
+main{
 	position: relative;
 	width:100vw;
 	height: auto;
@@ -130,7 +130,7 @@ header nav ul li a:active{
 	position: relative;
 	display: grid;
 	width: 100%;
-	height: 325px;
+	height: 375px;
 	background: white;
 	grid-template-columns: auto auto auto;
 	padding: 50px 0px;
@@ -139,12 +139,58 @@ header nav ul li a:active{
 .grid{
 	margin-left: 20%;
 	left:10%;
-	background: grey;
-	width:60%
+	background:darkorange;
+	width:60%;
+}
+
+.gridLogo{
+	width: 100px;
+	height: 100px;
+	margin-top: 7%;
+	margin-left: 32.5%;
+	
+	
+}
+
+.gridTitle{
+	position: relative;
+	margin-left:30%;
+	margin-top:2%;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	color:white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 800;
+}
+
+.gridText{
+	position: relative;
+	width:90%;;
+	height: auto;
+	
 }
 
 
+.gridButton{
+	position: relative;
+	margin-left: 20%;
+	margin-top: 100%;
+	top:90%;
+	border: solid 2px white;
+	padding: 10px 50px;
+	color: white;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
 
+.gridButton:hover{
+	background: black;
+	color:darkgoldenrod;
+	border:none
+}
 
 footer {
 	position:relative;
