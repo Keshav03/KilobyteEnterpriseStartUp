@@ -6,6 +6,7 @@ header {
 	width: 100vw;
 	background: black;
 	height: 13vh;
+	
 }
 
 .kilobyte{
@@ -78,19 +79,21 @@ main{
 	width:100vw;
 	height: auto;
 	padding: 100px;
+	
 }
 
 .cover{
 	position: relative;
-	width: auto;
+	width: 100vw;
 	height:100vh;
 	background-image: url(cover_photo.JPG);
 	background-size: cover;
-		
+	
 }
 
 #welcomeMsg{
 	position: absolute;
+	width: auto;
 	left:50%;
 	top: 35%;
 	transform: translate(-50%);
@@ -106,6 +109,7 @@ main{
 	position: absolute;
 	left:50%;
 	top: 45%;
+	width: auto;
 	transform: translate(-50%,-45%);
 	font-size: 3.0rem;
 	font-stretch: ultra-expanded;
@@ -113,26 +117,27 @@ main{
 	text-transform: uppercase;
 	font-weight: 900;
 	color:white;
-	
 }
 
 #bar{
 	position: absolute;
-	width:200px;
+	width:25%;
 	height: 5px;
 	background: white;
 	left:50%;
 	top:55%;
-	transform: translate(-55%,-50%)
+	transform: translate(-55%,-50%);
 		
 }
 
 #aboutSection{
 	width: 100%;
 	height: 350px;
-	background: #D98214;
+	background: darkorange;
 	position: relative;
+	
 }
+
 
 #aboutTitle{
 	padding-top:2.5%;
@@ -197,11 +202,11 @@ main{
 	background: white;
 	grid-template-columns: auto auto auto;
 	padding: 50px 0px;
+	
 }
 
 .grid{
 	margin-left: 20%;
-	left:10%;
 	background:darkorange;
 	width:60%;
 }
@@ -228,31 +233,43 @@ main{
 
 .gridText{
 	position: relative;
-	width:90%;;
+	width:90%;
+	margin-right: 5%;
+	margin-left: 5%;
 	height: auto;
-	
+	text-align: center;
+	color:white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 
 .gridButton{
 	position: relative;
-	margin-left: 20%;
-	margin-top: 100%;
-	top:90%;
+	left: 11%;
+	top:10%;
 	border: solid 2px white;
 	padding: 10px 50px;
 	color: white;
 	text-decoration: none;
-	font-size: 1.1em;
+	font-size: 1em;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 .gridButton:hover{
+	position: relative;
+	left: 11%;
+	top:10%;
+	border: solid 2px white;
+	padding: 10px 50px;
 	background: black;
-	color:darkgoldenrod;
-	border:none
+	color: orange;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 footer {
@@ -261,7 +278,9 @@ footer {
 	width: 100vw;
 	height:225px;
 	background:black;
+	
 }
+
 
 footer h3{
 	color :white;
